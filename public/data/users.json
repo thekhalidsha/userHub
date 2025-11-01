@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "Mohammed Khalid",
+    "username": "thekhalidsha",
+    "email": "hello@mohammedkhalid.in",
+    "phone": "+91 7994748874",
+    "website": "host.mohammedkhalid.in",
+    "company": {
+      "name": "InfinityHub",
+      "catchPhrase": "Innovative IT solutions for modern businesses"
+    },
+    "address": {
+      "street": "9 MG Road",
+      "city": "Bangalore",
+      "zipcode": "678787"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Priya Menon",
+    "username": "priya2",
+    "email": "priya.menon@example.com",
+    "phone": "+91 94999-76736",
+    "website": "www.priyamenon.in",
+    "company": {
+      "name": "Bangalore Innovations Pvt Ltd",
+      "catchPhrase": "Driving digital transformation"
+    },
+    "address": {
+      "street": "80 MG Road",
+      "city": "Chennai",
+      "zipcode": "641978"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Venkatesh Iyer",
+    "username": "venkatesh3",
+    "email": "venkatesh.iyer@example.com",
+    "phone": "+91 74991-99465",
+    "website": "www.venkateshiyer.in",
+    "company": {
+      "name": "Hyderabad Software Hub",
+      "catchPhrase": "Code that matters"
+    },
+    "address": {
+      "street": "38 MG Road",
+      "city": "Kochi",
+      "zipcode": "627219"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Lakshmi Nair",
+    "username": "lakshmi4",
+    "email": "lakshmi.nair@example.com",
+    "phone": "+91 94262-80281",
+    "website": "www.lakshminair.in",
+    "company": {
+      "name": "Kochi Digital Services",
+      "catchPhrase": "Your trusted tech partner"
+    },
+    "address": {
+      "street": "46 MG Road",
+      "city": "Kochi",
+      "zipcode": "634438"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Karthik Reddy",
+    "username": "karthik5",
+    "email": "karthik.reddy@example.com",
+    "phone": "+91 97571-25439",
+    "website": "www.karthikreddy.in",
+    "company": {
+      "name": "Trivandrum Tech Labs",
+      "catchPhrase": "Building tomorrow's solutions today"
+    },
+    "address": {
+      "street": "7 MG Road",
+      "city": "Hyderabad",
+      "zipcode": "690511"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Divya Pillai",
+    "username": "divya6",
+    "email": "divya.pillai@example.com",
+    "phone": "+91 78349-15812",
+    "website": "www.divyapillai.in",
+    "company": {
+      "name": "Coimbatore Cloud Systems",
+      "catchPhrase": "Scale with confidence"
+    },
+    "address": {
+      "street": "69 MG Road",
+      "city": "Bangalore",
+      "zipcode": "655950"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Arun Krishnan",
+    "username": "arun7",
+    "email": "arun.krishnan@example.com",
+    "phone": "+91 96771-16250",
+    "website": "www.arunkrishnan.in",
+    "company": {
+      "name": "Madurai Web Enterprises",
+      "catchPhrase": "Web solutions that work"
+    },
+    "address": {
+      "street": "40 MG Road",
+      "city": "Hyderabad",
+      "zipcode": "696306"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Meera Subramanian",
+    "username": "meera8",
+    "email": "meera.subramanian@example.com",
+    "phone": "+91 97926-34763",
+    "website": "www.meerasubramanian.in",
+    "company": {
+      "name": "Vizag Data Analytics Co",
+      "catchPhrase": "Data-driven insights"
+    },
+    "address": {
+      "street": "35 MG Road",
+      "city": "Hyderabad",
+      "zipcode": "635295"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Santhosh Raman",
+    "username": "santhosh9",
+    "email": "santhosh.raman@example.com",
+    "phone": "+91 92256-32794",
+    "website": "www.santhoshraman.in",
+    "company": {
+      "name": "Mysore InfoTech",
+      "catchPhrase": "Technology meets tradition"
+    },
+    "address": {
+      "street": "8 MG Road",
+      "city": "Bangalore",
+      "zipcode": "660953"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Anjali Venkataraman",
+    "username": "anjali10",
+    "email": "anjali.venkataraman@example.com",
+    "phone": "+91 90544-45539",
+    "website": "www.anjalivenkataraman.in",
+    "company": {
+      "name": "Mangalore Digital Co",
+      "catchPhrase": "Digital excellence delivered"
+    },
+    "address": {
+      "street": "51 MG Road",
+      "city": "Chennai",
+      "zipcode": "650239"
+    }
+  }
+]

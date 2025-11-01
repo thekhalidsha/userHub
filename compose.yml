@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  userhub:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: userhub-app
+    image: userhub:latest
+    ports:
+      - "8585:8000"
+    restart: unless-stopped
+    networks:
+      - userhub-network
+    environment:
+      - NODE_ENV=production
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.userhub.description=UserHub React Application"
+      - "com.userhub.version=1.0"
+
+networks:
+  userhub-network:
+    driver: bridge
