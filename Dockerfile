@@ -20,7 +20,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # Expose port 80 for default HTTP
-EXPOSE 80
+EXPOSE 8000
 
 # Copy custom nginx configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf

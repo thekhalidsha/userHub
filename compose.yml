@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     container_name: userhub
     ports:
-      - "8585:80"  # Changed to match Nginx's EXPOSE 80
+      - "8585:8000"  # Changed to match Nginx's EXPOSE 80
     restart: unless-stopped
     environment:
       - NODE_ENV=production
