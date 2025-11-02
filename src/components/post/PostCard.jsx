@@ -4,10 +4,10 @@ import { Calendar, Edit, Trash2 } from 'lucide-react';
 const PostCard = memo(({ post, onEdit, onDelete }) => {
   const formatDate = useCallback((dateString) => {
     const date = new Date(dateString);
-    return date.toLocaleDateString('en-IN', { 
-      year: 'numeric', 
-      month: 'short', 
-      day: 'numeric' 
+    return date.toLocaleDateString('en-IN', {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric'
     });
   }, []);
 
@@ -20,12 +20,13 @@ const PostCard = memo(({ post, onEdit, onDelete }) => {
   }, [onDelete, post]);
 
   return (
-    <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-md transition-shadow">
+    <div className="bg-white group dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-md transition-shadow duration-300">
       <div className="flex items-start justify-between gap-4 mb-3">
         <h3 className="font-bold text-lg text-gray-900 dark:text-white flex-1">
           {post.title}
         </h3>
-        <div className="flex items-center gap-2">
+
+        <div className="flex items-center gap-2 opacity-0 transform translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0">
           <button
             onClick={handleEdit}
             className="p-2 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 text-blue-600 dark:text-blue-400 transition-colors"
@@ -52,6 +53,7 @@ const PostCard = memo(({ post, onEdit, onDelete }) => {
         <span>{formatDate(post.date)}</span>
       </div>
     </div>
+
   );
 });
 
