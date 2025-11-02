@@ -6,10 +6,10 @@ import { useTheme } from '../../context/ThemeContext';
 
 const Layout = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(false);
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState(true);
   const { toggleTheme } = useTheme();
 
-  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
+  const toggleSidebar = () => {setIsSidebarCollapsed(false); setIsSidebarOpen(!isSidebarOpen)};
   const closeSidebar = () => setIsSidebarOpen(false);
   const toggleCollapse = useCallback(() => {
     setIsSidebarCollapsed(prev => !prev);
@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
   }, [toggleTheme]); 
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col">
+    <div className="min-h-screen bg-gray-50 bg-linear-to-tr from-gray-50 from-70% to-purple-100 dark:bg-gray-950 flex flex-col">
       <Navbar 
         toggleSidebar={toggleSidebar}
         isCollapsed={isSidebarCollapsed}

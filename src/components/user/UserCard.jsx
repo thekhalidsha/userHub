@@ -18,7 +18,7 @@ const UserCard = memo(({ user }) => {
   return (
     <div
       onClick={() => navigate(`/user/${user.id}`)}
-      className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg hover:scale-[1.02] transition-all cursor-pointer"
+      className="bg-white transition-colors duration-500 delay-250 hover:bg-gradient-to-tr from-white from-70%  to-purple-100 to-100% dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-6 hover:shadow-lg hover:scale-[1.02] transition-all cursor-pointer"
     >
       <div className="flex items-center gap-4 mb-4">
         <div className="w-14 h-14 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg">
