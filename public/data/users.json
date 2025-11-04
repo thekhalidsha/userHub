@@ -1,172 +1,172 @@
 [
   {
     "id": 1,
-    "name": "Mohammed Khalid",
-    "username": "thekhalidsha",
-    "email": "hello@mohammedkhalid.in",
-    "phone": "+91 7994748874",
-    "website": "host.mohammedkhalid.in",
+    "name": "Arjun",
+    "username": "arjundev",
+    "email": "arjun@example.com",
+    "phone": "+91 9876543210",
+    "website": "arjun.dev",
     "company": {
-      "name": "InfinityHub",
-      "catchPhrase": "Innovative IT solutions for modern businesses"
+      "name": "TechVision",
+      "catchPhrase": "Building tomorrow's digital solutions"
     },
     "address": {
-      "street": "9 MG Road",
-      "city": "Bangalore",
-      "zipcode": "678787"
+      "street": "12 MG Road",
+      "city": "Chennai",
+      "zipcode": "600001"
     }
   },
   {
     "id": 2,
-    "name": "Priya Menon",
-    "username": "priya2",
-    "email": "priya.menon@example.com",
-    "phone": "+91 94999-76736",
-    "website": "www.priyamenon.in",
+    "name": "Priya",
+    "username": "priyatech",
+    "email": "priya@example.com",
+    "phone": "+91 9876543211",
+    "website": "priya.tech",
     "company": {
-      "name": "Bangalore Innovations Pvt Ltd",
-      "catchPhrase": "Driving digital transformation"
+      "name": "CloudNine",
+      "catchPhrase": "Elevating business through technology"
     },
     "address": {
-      "street": "80 MG Road",
-      "city": "Chennai",
-      "zipcode": "641978"
+      "street": "45 Brigade Road",
+      "city": "Bangalore",
+      "zipcode": "560025"
     }
   },
   {
     "id": 3,
-    "name": "Venkatesh Iyer",
-    "username": "venkatesh3",
-    "email": "venkatesh.iyer@example.com",
-    "phone": "+91 74991-99465",
-    "website": "www.venkateshiyer.in",
+    "name": "Vikram",
+    "username": "vikramcodes",
+    "email": "vikram@example.com",
+    "phone": "+91 9876543212",
+    "website": "vikram.codes",
     "company": {
-      "name": "Hyderabad Software Hub",
-      "catchPhrase": "Code that matters"
+      "name": "DataStream",
+      "catchPhrase": "Smart data for smart decisions"
     },
     "address": {
-      "street": "38 MG Road",
-      "city": "Kochi",
-      "zipcode": "627219"
+      "street": "23 Residency Road",
+      "city": "Hyderabad",
+      "zipcode": "500001"
     }
   },
   {
     "id": 4,
-    "name": "Lakshmi Nair",
-    "username": "lakshmi4",
-    "email": "lakshmi.nair@example.com",
-    "phone": "+91 94262-80281",
-    "website": "www.lakshminair.in",
+    "name": "Anjali",
+    "username": "anjaliweb",
+    "email": "anjali@example.com",
+    "phone": "+91 9876543213",
+    "website": "anjali.web",
     "company": {
-      "name": "Kochi Digital Services",
-      "catchPhrase": "Your trusted tech partner"
+      "name": "WebCraft",
+      "catchPhrase": "Crafting digital experiences"
     },
     "address": {
-      "street": "46 MG Road",
-      "city": "Kochi",
-      "zipcode": "634438"
+      "street": "67 Anna Salai",
+      "city": "Chennai",
+      "zipcode": "600002"
     }
   },
   {
     "id": 5,
-    "name": "Karthik Reddy",
-    "username": "karthik5",
-    "email": "karthik.reddy@example.com",
-    "phone": "+91 97571-25439",
-    "website": "www.karthikreddy.in",
+    "name": "Rohan",
+    "username": "rohanapps",
+    "email": "rohan@example.com",
+    "phone": "+91 9876543214",
+    "website": "rohan.apps",
     "company": {
-      "name": "Trivandrum Tech Labs",
-      "catchPhrase": "Building tomorrow's solutions today"
+      "name": "AppForge",
+      "catchPhrase": "Forging innovative mobile solutions"
     },
     "address": {
-      "street": "7 MG Road",
-      "city": "Hyderabad",
-      "zipcode": "690511"
+      "street": "89 Whitefield",
+      "city": "Bangalore",
+      "zipcode": "560066"
     }
   },
   {
     "id": 6,
-    "name": "Divya Pillai",
-    "username": "divya6",
-    "email": "divya.pillai@example.com",
-    "phone": "+91 78349-15812",
-    "website": "www.divyapillai.in",
+    "name": "Divya",
+    "username": "divyacode",
+    "email": "divya@example.com",
+    "phone": "+91 9876543215",
+    "website": "divya.code",
     "company": {
-      "name": "Coimbatore Cloud Systems",
-      "catchPhrase": "Scale with confidence"
+      "name": "CodeLab",
+      "catchPhrase": "Experimenting with tomorrow's code"
     },
     "address": {
-      "street": "69 MG Road",
-      "city": "Bangalore",
-      "zipcode": "655950"
+      "street": "34 Jubilee Hills",
+      "city": "Hyderabad",
+      "zipcode": "500033"
     }
   },
   {
     "id": 7,
-    "name": "Arun Krishnan",
-    "username": "arun7",
-    "email": "arun.krishnan@example.com",
-    "phone": "+91 96771-16250",
-    "website": "www.arunkrishnan.in",
+    "name": "Karthik",
+    "username": "karthikdev",
+    "email": "karthik@example.com",
+    "phone": "+91 9876543216",
+    "website": "karthik.dev",
     "company": {
-      "name": "Madurai Web Enterprises",
-      "catchPhrase": "Web solutions that work"
+      "name": "ByteWorks",
+      "catchPhrase": "Engineering excellence in every byte"
     },
     "address": {
-      "street": "40 MG Road",
-      "city": "Hyderabad",
-      "zipcode": "696306"
+      "street": "56 Velachery",
+      "city": "Chennai",
+      "zipcode": "600042"
     }
   },
   {
     "id": 8,
-    "name": "Meera Subramanian",
-    "username": "meera8",
-    "email": "meera.subramanian@example.com",
-    "phone": "+91 97926-34763",
-    "website": "www.meerasubramanian.in",
+    "name": "Meera",
+    "username": "meeratech",
+    "email": "meera@example.com",
+    "phone": "+91 9876543217",
+    "website": "meera.tech",
     "company": {
-      "name": "Vizag Data Analytics Co",
-      "catchPhrase": "Data-driven insights"
+      "name": "InnoSphere",
+      "catchPhrase": "Innovating beyond boundaries"
     },
     "address": {
-      "street": "35 MG Road",
-      "city": "Hyderabad",
-      "zipcode": "635295"
+      "street": "78 Koramangala",
+      "city": "Bangalore",
+      "zipcode": "560034"
     }
   },
   {
     "id": 9,
-    "name": "Santhosh Raman",
-    "username": "santhosh9",
-    "email": "santhosh.raman@example.com",
-    "phone": "+91 92256-32794",
-    "website": "www.santhoshraman.in",
+    "name": "Aditya",
+    "username": "adityaapps",
+    "email": "aditya@example.com",
+    "phone": "+91 9876543218",
+    "website": "aditya.apps",
     "company": {
-      "name": "Mysore InfoTech",
-      "catchPhrase": "Technology meets tradition"
+      "name": "PixelPerfect",
+      "catchPhrase": "Precision in every pixel"
     },
     "address": {
-      "street": "8 MG Road",
-      "city": "Bangalore",
-      "zipcode": "660953"
+      "street": "91 Banjara Hills",
+      "city": "Hyderabad",
+      "zipcode": "500034"
     }
   },
   {
     "id": 10,
-    "name": "Anjali Venkataraman",
-    "username": "anjali10",
-    "email": "anjali.venkataraman@example.com",
-    "phone": "+91 90544-45539",
-    "website": "www.anjalivenkataraman.in",
+    "name": "Kavya",
+    "username": "kavyaweb",
+    "email": "kavya@example.com",
+    "phone": "+91 9876543219",
+    "website": "kavya.web",
     "company": {
-      "name": "Mangalore Digital Co",
-      "catchPhrase": "Digital excellence delivered"
+      "name": "NexGen",
+      "catchPhrase": "Next generation tech solutions"
     },
     "address": {
-      "street": "51 MG Road",
+      "street": "22 T Nagar",
       "city": "Chennai",
-      "zipcode": "650239"
+      "zipcode": "600017"
     }
   }
 ]
